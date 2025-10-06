@@ -16,6 +16,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Infrastructure", "src\servises\Products\Products.Infrastructure\Products.Infrastructure.csproj", "{0FB4145B-18BC-4F86-B0CD-C552C95B0F95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Application", "src\servises\Products\Products.Application\Products.Application.csproj", "{4C08537B-C281-4B70-B0D9-13CC8F518CEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7545DE68-5E29-4A6F-BA03-CA904DFC82E5} = {7545DE68-5E29-4A6F-BA03-CA904DFC82E5}
+	EndProjectSection
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
 EndProject
